@@ -1,2 +1,8 @@
-let win=confirm('ert')
-console.log()
+/*
+let win=prompt('ert')
+console.log(win)
+if (win!=null){
+
+  win=win**2
+}
+*/
