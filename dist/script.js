@@ -1,3 +1,4 @@
+//  1
 // let win=parseInt(prompt('я могу посчитать степень 2х') as string)
 // if (win || win == 0){
 //    win=win**2
@@ -5,13 +6,12 @@
 //   }
 //   else
 //   alert('ну ок')
-// win=parseInt(prompt('число 1') as string)
+//  2
+// let win=parseInt(prompt('число 1') as string)
 // let sum=win
 // win=parseInt(prompt('число 2') as string)
 // sum=(sum+win)/2
 // alert(sum)
-var w = 5;
-while (w > 1) {
-    console.log(w);
-    w++;
-}
+//  5
+var q = 222;
+console.log();
