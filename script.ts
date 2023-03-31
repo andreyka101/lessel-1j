@@ -1,3 +1,5 @@
+// pz
+
 //  1
 
 // let win=parseInt(prompt('я могу посчитать степень 2х') as string)
@@ -17,6 +19,11 @@
   // alert(sum)
 
 //  5
-let q=222
-console.log( )
 
+// let num= +(prompt('число 1') as string)
+// let num22= +(prompt('число 2') as string)
+// alert('ответ сумм ' + (num + num22) + '\n ответ минус ' + (num - num22) + '\n ответ деление ' + (num / num22) + '\n ответ умножение ' + (num * num22) + '\n введеные числа ${num} ${num22}')
+
+
+
+// urok
