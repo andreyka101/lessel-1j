@@ -27,3 +27,11 @@
 
 
 // urok
+
+// 1
+
+// let n= +(prompt('число') as string)
+// if (n%2!=0) n--
+// for (let cycle=0 , num=2;cycle!=n/2;cycle++ , num+=2){
+//   console.log(num)
+// }
