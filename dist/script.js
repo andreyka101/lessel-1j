@@ -18,9 +18,13 @@
 // let num22= +(prompt('число 2') as string)
 // alert('ответ сумм ' + (num + num22) + '\n ответ минус ' + (num - num22) + '\n ответ деление ' + (num / num22) + '\n ответ умножение ' + (num * num22) + '\n введеные числа ${num} ${num22}')
 // urok
-// 1
+//  1
 // let n= +(prompt('число') as string)
 // if (n%2!=0) n--
-// for (let cycle=0 , num=2;cycle!=n/2;cycle++ , num+=2){
+// for (let cycle=0 , num=2;cycle!=n/2;cycle++ , num+=2)
 //   console.log(num)
+//  3
+// let n= +(prompt('число') as string)
+// for (let num=1;num!=10;num++){
+//   if (n%num==0) console.log(num)
 // }
