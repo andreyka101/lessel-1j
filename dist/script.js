@@ -17,7 +17,7 @@
 // let num= +(prompt('число 1') as string)
 // let num22= +(prompt('число 2') as string)
 // alert('ответ сумм ' + (num + num22) + '\n ответ минус ' + (num - num22) + '\n ответ деление ' + (num / num22) + '\n ответ умножение ' + (num * num22) + '\n введеные числа ${num} ${num22}')
-// urok
+// urok основы str139
 //  1
 // let n= +(prompt('число') as string)
 // if (n%2!=0) n--
@@ -28,3 +28,11 @@
 // for (let num=1;num!=10;num++){
 //   if (n%num==0) console.log(num)
 // }
+// urok function str159
+// 2
+// function fun (num) {
+//   alert(`erer ${num} ererer`)
+// }
+// fun(prompt(`message`))
+// 3
+// function fun ()

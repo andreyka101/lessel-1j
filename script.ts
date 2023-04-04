@@ -26,7 +26,7 @@
 
 
 
-// urok
+// urok основы str139
 
 //  1
 
@@ -41,3 +41,16 @@
 // for (let num=1;num!=10;num++){
 //   if (n%num==0) console.log(num)
 // }
+
+// urok function str159
+
+// 2
+
+// function fun (num) {
+//   alert(`erer ${num} ererer`)
+// }
+// fun(prompt(`message`))
+
+// 3
+
+// function fun ()
