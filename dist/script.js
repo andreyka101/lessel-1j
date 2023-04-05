@@ -35,4 +35,20 @@
 // }
 // fun(prompt(`message`))
 // 3
-// function fun ()
+// function fun (){
+// }
+// Log.innerHTML += "<br>inc x = "
+// 5
+//   function fun (x){
+//   if (x>=1){
+//     return 1
+//   }
+//   if (x==0){
+//     return 0
+//   }
+//   return -1
+// }
+// alert (
+// fun(prompt(`message`))
+// )
+// 6
