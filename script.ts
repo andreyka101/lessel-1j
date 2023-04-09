@@ -73,4 +73,10 @@
 // fun(prompt(`message`))
 // )
 
-// urok
+// urok all
+
+// 2
+
+function call (){
+  
+}
