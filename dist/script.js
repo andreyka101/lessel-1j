@@ -51,4 +51,4 @@
 // alert (
 // fun(prompt(`message`))
 // )
-// 6
+// urok
