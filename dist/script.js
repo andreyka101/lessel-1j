@@ -53,5 +53,22 @@
 // )
 // urok all
 // 2
-function call() {
-}
+// function call() {
+//   let num = +(prompt(`exit==0`) as string)
+//   let min = num
+//   let max = num
+//   while (num != 0) {
+//     min = num < min ? num : min
+//     max = num > max ? num : max
+//     num = +(prompt(`exit==0`) as string)
+//   }
+//   return alert(`min = ${min}
+// max = ${max}`)
+// }
+// call()
+// 3
+// const line = []
+// function numbers(line){
+//   alert(line)
+// }
+// numbers(5,5,5,3)
