@@ -52,6 +52,18 @@
 // fun(prompt(`message`))
 // )
 // urok all
+// 1
+// function call(){
+//   let num = 0
+//   let sum = ""
+//   for (let el of arguments){
+//     sum += arguments[num]
+//     sum += " "
+//     num++
+//   }
+//   console.log(sum)
+// }
+// call(3,7,14,`err`,5)
 // 2
 // function call() {
 //   let num = +(prompt(`exit==0`) as string)
@@ -67,8 +79,3 @@
 // }
 // call()
 // 3
-// const line = []
-// function numbers(line){
-//   alert(line)
-// }
-// numbers(5,5,5,3)
