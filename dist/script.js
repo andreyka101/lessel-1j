@@ -51,7 +51,7 @@
 // alert (
 // fun(prompt(`message`))
 // )
-// urok all
+// urok all str193
 // 1
 // function call(){
 //   let num = 0
@@ -79,3 +79,15 @@
 // }
 // call()
 // 3
+// function numbers(){
+//   let numbers = 0
+//   for (let el of arguments) {
+//     if (typeof(el)=='number') {
+//       numbers++
+//     }
+//   }
+//   return numbers
+// }
+// console.log('numbers(5,5,5,3)',numbers(5,5,5,3))
+// console.log('numbers(5,a,5,d)',numbers(5,'a',5,'d'))
+// console.log('numbers(q,w,0,true)',numbers('q','w',0,true))
