@@ -119,3 +119,21 @@
 // console.log('numbers(5,5,5,3)',numbers(5,5,5,3))
 // console.log('numbers(5,a,5,d)',numbers(5,'a',5,'d'))
 // console.log('numbers(q,w,0,true)',numbers('q','w',0,true))
+
+// 4
+
+// function mean (){
+//   let i = 0
+//   let num = 0
+//   for (let el of arguments){
+//     num+=arguments[i]
+//     i++
+//   }
+//   return num/=i
+// }
+
+// console.log(mean(6,6,6,5));
+
+// 5
+
+
