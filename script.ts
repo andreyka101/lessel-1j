@@ -136,4 +136,8 @@
 
 // 5
 
-
+let definingDegree= -30
+function doubling (input){
+  if (input%2=)
+  
+}

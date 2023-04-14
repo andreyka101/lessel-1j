@@ -103,3 +103,8 @@
 // }
 // console.log(mean(6,6,6,5));
 // 5
+var definingDegree = -30;
+function doubling(input) {
+    if (input % 2)
+         = ;
+}
