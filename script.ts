@@ -136,14 +136,23 @@
 
 // 5
 
-let memory = 0
-function doubling(input) {
-  if (input % 2 == 0) {
-    memory++
-    input/=2
-    if (input == 2) return `${input} ^ ${memory}`
-    else doubling(input)
-  }
-  else return `ошибка`
-}
-console.log(doubling(prompt(`2^x`)))
+// let memory = 1
+// function doubling(input) {
+//   if (input % 2 == 0) {
+//     memory++
+//     input/=2
+//     if (input == 2){
+//       alert(`${input} ^ ${memory}`)
+//       return 0
+//     }
+//     else doubling(input)
+//   }
+//   else {
+//     alert (`ошибка`)
+//     return 'ошобка'
+//   }
+// }
+// console.log (doubling(prompt(`2^x`)))
+
+// 6
+
