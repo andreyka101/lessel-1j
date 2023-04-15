@@ -136,8 +136,14 @@
 
 // 5
 
-let definingDegree= -30
-function doubling (input){
-  if (input%2=)
-  
+let memory = 0
+function doubling(input) {
+  if (input % 2 == 0) {
+    memory++
+    input/=2
+    if (input == 2) return `${input} ^ ${memory}`
+    else doubling(input)
+  }
+  else return `ошибка`
 }
+console.log(doubling(prompt(`2^x`)))

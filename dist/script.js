@@ -103,8 +103,17 @@
 // }
 // console.log(mean(6,6,6,5));
 // 5
-var definingDegree = -30;
+var memory = 0;
 function doubling(input) {
-    if (input % 2)
-         = ;
+    if (input % 2 == 0) {
+        memory++;
+        input /= 2;
+        if (input == 2)
+            return input + " ^ " + memory;
+        else
+            doubling(input);
+    }
+    else
+        return "\u043E\u0448\u0438\u0431\u043A\u0430";
 }
+console.log(doubling(prompt("2^x")));
