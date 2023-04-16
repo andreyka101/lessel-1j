@@ -121,3 +121,11 @@
 // }
 // console.log (doubling(prompt(`2^x`)))
 // 6
+// function doubleArray (){
+//   const str=[]
+//   for (let i=0; i!= arguments.length;i++){
+//     str.unshift(` ${arguments[i]}`)
+//   }
+//   return str
+// }
+// console.log(doubleArray ('eegg',100,'upu',477,777));
