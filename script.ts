@@ -2,13 +2,16 @@
 
 //  1
 
-// let win=parseInt(prompt('я могу посчитать степень 2х') as string)
-// if (win || win == 0){
-//    win=win**2
-//    alert('ответ '+win)
-//   }
-//   else
-//   alert('ну ок')
+function n1 (){
+  let win=parseInt(prompt('я могу посчитать степень 2х') as string)
+  if (win || win == 0){
+    win=win**2
+    alert('ответ '+win)
+  }
+  else
+  alert('ну ок')
+}
+// n1()
 
 //  2
 

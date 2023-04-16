@@ -1,12 +1,15 @@
 // dz
 //  1
-// let win=parseInt(prompt('я могу посчитать степень 2х') as string)
-// if (win || win == 0){
-//    win=win**2
-//    alert('ответ '+win)
-//   }
-//   else
-//   alert('ну ок')
+function n1() {
+    var win = parseInt(prompt('я могу посчитать степень 2х'));
+    if (win || win == 0) {
+        win = Math.pow(win, 2);
+        alert('ответ ' + win);
+    }
+    else
+        alert('ну ок');
+}
+// n1()
 //  2
 // let win=parseInt(prompt('число 1') as string)
 // let sum=win
