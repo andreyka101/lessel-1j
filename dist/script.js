@@ -1,4 +1,4 @@
-// pz
+// dz
 //  1
 // let win=parseInt(prompt('я могу посчитать степень 2х') as string)
 // if (win || win == 0){
