@@ -13,23 +13,45 @@
     <p>
       dz    
     </p>
+
+    <div>
     <span>
       номер 1
     </span>
-    <div>
       <button id="b1">
         начать
       </button>
-      <span>
-        ответ_<span></span></span>
     </div>
+
+    <div>
+    <span>
+      номер 2
+    </span>
+      <button id="b2">
+        начать
+      </button>
+    </div>
+
+    <div>
+    <span>
+      номер 5
+    </span>
+      <button id="b3">
+        начать
+      </button>
+    </div>
+
   </div>
 
 
   <script src="dist/script.js"></script>
   <script>
-    const button1 = document.querySelector('#b1')
+    const button1 = document.querySelector('div div #b1')
     button1.addEventListener('click',n1)
+    const button2 = document.querySelector('div div #b2')
+    button2.addEventListener('click',n2)
+    const button3 = document.querySelector('div div #b3')
+    button3.addEventListener('click',n3)
   </script>
 </body>
 
