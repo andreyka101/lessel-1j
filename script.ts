@@ -39,138 +39,171 @@ function n3 (){
 
 //  1
 
-// let n= +(prompt('число') as string)
-// if (n%2!=0) n--
-// for (let cycle=0 , num=2;cycle!=n/2;cycle++ , num+=2)
-//   console.log(num)
+function n4 (){
+  let n= +(prompt('число') as string)
+  if (n%2!=0) n--
+  for (let cycle=0 , num=2;cycle!=n/2;cycle++ , num+=2)
+  console.log(num)
+}
+// n4()
 
 //  3
 
-// let n= +(prompt('число') as string)
-// for (let num=1;num!=10;num++){
-//   if (n%num==0) console.log(num)
-// }
+function n5 (){
+let n= +(prompt('число') as string)
+for (let num=1;num!=10;num++){
+  if (n%num==0) console.log(num)
+}
+}
+// n5()
 
 // urok function str159
 
 // 2
 
-// function fun (num) {
-//   alert(`erer ${num} ererer`)
-// }
-// fun(prompt(`message`))
+function n6 (){
+  function fun (num) {
+    alert(`erer ${num} ererer`)
+  }
+  fun(prompt(`message`))
+}
+// n6()
 
 // 3
 
+///////////////////////////////////////////////////
 // function fun (){
 
 // }
 // Log.innerHTML += "<br>inc x = "
+////////////////////////////////////////////////
 
 // 5
 
-//   function fun (x){
-//   if (x>=1){
-//     return 1
-//   }
-//   if (x==0){
-//     return 0
-//   }
-//   return -1
-// }
-// alert (
-// fun(prompt(`message`))
-// )
+function n7(){
+  function fun (x){
+    if (x>=1){
+      return 1
+    }
+    if (x==0){
+      return 0
+    }
+    return -1
+  }
+  alert (
+    fun(prompt(`message`))
+    )
+  }
+// n7()
 
 // urok all str193
 
 // 1
 
-// function call(){
-//   let num = 0
-//   let sum = ""
-//   for (let el of arguments){
-//     sum += arguments[num]
-//     sum += " "
-//     num++
-//   }
-//   console.log(sum)
-// }
-// call(3,7,14,`err`,5)
+
+function n8(){
+function call(){
+  let num = 0
+  let sum = ""
+  for (let el of arguments){
+    sum += arguments[num]
+    sum += " "
+    num++
+  }
+  console.log(sum)
+}
+call(3,7,14,`err`,5)
+}
+// n8()
 
 // 2
 
-// function call() {
-//   let num = +(prompt(`exit==0`) as string)
-//   let min = num
-//   let max = num
-//   while (num != 0) {
-//     min = num < min ? num : min
-//     max = num > max ? num : max
-//     num = +(prompt(`exit==0`) as string)
-//   }
-//   return alert(`min = ${min}
-// max = ${max}`)
-// }
-// call()
+function n9() {
+function call() {
+  let num = +(prompt(`exit==0`) as string)
+  let min = num
+  let max = num
+  while (num != 0) {
+    min = num < min ? num : min
+    max = num > max ? num : max
+    num = +(prompt(`exit==0`) as string)
+  }
+  return alert(`min = ${min}
+max = ${max}`)
+}
+call()
+}
+// n9()
 
 // 3
 
-// function numbers(){
-//   let numbers = 0
-//   for (let el of arguments) {
-//     if (typeof(el)=='number') {
-//       numbers++
-//     }
-//   }
-//   return numbers
-// }
-// console.log('numbers(5,5,5,3)',numbers(5,5,5,3))
-// console.log('numbers(5,a,5,d)',numbers(5,'a',5,'d'))
-// console.log('numbers(q,w,0,true)',numbers('q','w',0,true))
+function n10(){
+function numbers(){
+  let numbers = 0
+  for (let el of arguments) {
+    if (typeof(el)=='number') {
+      numbers++
+    }
+  }
+  return numbers
+}
+console.log('numbers(5,5,5,3)',numbers(5,5,5,3))
+console.log('numbers(5,a,5,d)',numbers(5,'a',5,'d'))
+console.log('numbers(q,w,0,true)',numbers('q','w',0,true))
+}
+// n10()
 
 // 4
 
-// function mean (){
-//   let i = 0
-//   let num = 0
-//   for (let el of arguments){
-//     num+=arguments[i]
-//     i++
-//   }
-//   return num/=i
-// }
+function n11 (){
+function mean (){
+  let i = 0
+  let num = 0
+  for (let el of arguments){
+    num+=arguments[i]
+    i++
+  }
+  return num/=i
+}
 
-// console.log(mean(6,6,6,5));
+console.log(mean(6,6,6,5));
+}
+// n11()
 
 // 5
 
-// let memory = 1
-// function doubling(input) {
-//   if (input % 2 == 0) {
-//     memory++
-//     input/=2
-//     if (input == 2){
-//       alert(`${input} ^ ${memory}`)
-//       return 0
-//     }
-//     else doubling(input)
-//   }
-//   else {
-//     alert (`ошибка`)
-//     return 'ошобка'
-//   }
-// }
-// console.log (doubling(prompt(`2^x`)))
-
+function n12 (){
+  let memory = 1
+  function doubling(input) {
+      if (input % 2 == 0) {
+          memory++
+          input/=2
+          if (input == 2){
+              alert(`${input} ^ ${memory}`)
+              return 0
+            }
+            else doubling(input)
+          }
+          else {
+              alert (`ошибка`)
+              return 'ошобка'
+            }
+          }
+          console.log (doubling(prompt(`2^x`)))
+}
+// n12()
+          
 // 6
+          
+function n13 (){
+function doubleArray (){
+  const str=[]
+  for (let i=0; i!= arguments.length;i++){
 
-// function doubleArray (){
-//   const str=[]
-//   for (let i=0; i!= arguments.length;i++){
-
-//     str.unshift(` ${arguments[i]}`)
-//   }
-//   return str
-// }
-// console.log(doubleArray ('eegg',100,'upu',477,777));
+    str.unshift(` ${arguments[i]}`)
+  }
+  return str
+}
+console.log(doubleArray ('eegg',100,'upu',477,777));
+}
+// n13()
