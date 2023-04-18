@@ -1,13 +1,16 @@
 // dz
 //  1
+var span1 = document.querySelector('#b1 span');
 function n1() {
     var win = parseInt(prompt('я могу посчитать степень 2х'));
     if (win || win == 0) {
         win = Math.pow(win, 2);
-        alert('ответ ' + win);
+        // @ts-ignore
+        span1 === null || span1 === void 0 ? void 0 : span1.innerText = 'ответ ' + win;
     }
     else
-        alert('ну ок');
+        // @ts-ignore
+        span1 === null || span1 === void 0 ? void 0 : span1.innerText = 'ну ок';
 }
 // n1()
 //  2
@@ -88,6 +91,7 @@ function n8() {
         }
         console.log(sum);
     }
+    // @ts-ignore
     call(3, 7, 14, "err", 5);
 }
 // n8()
@@ -119,8 +123,11 @@ function n10() {
         }
         return numbers;
     }
+    // @ts-ignore
     console.log('numbers(5,5,5,3)', numbers(5, 5, 5, 3));
+    // @ts-ignore
     console.log('numbers(5,a,5,d)', numbers(5, 'a', 5, 'd'));
+    // @ts-ignore
     console.log('numbers(q,w,0,true)', numbers('q', 'w', 0, true));
 }
 // n10()
@@ -136,6 +143,7 @@ function n11() {
         }
         return num /= i;
     }
+    // @ts-ignore
     console.log(mean(6, 6, 6, 5));
 }
 // n11()
@@ -166,10 +174,12 @@ function n13() {
     function doubleArray() {
         var str = [];
         for (var i = 0; i != arguments.length; i++) {
+            // @ts-ignore
             str.unshift(" " + arguments[i]);
         }
         return str;
     }
+    // @ts-ignore
     console.log(doubleArray('eegg', 100, 'upu', 477, 777));
 }
 // n13()

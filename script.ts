@@ -2,14 +2,17 @@
 
 //  1
 
+const span1 = document.querySelector('#b1 span')
 function n1 (){
   let win=parseInt(prompt('я могу посчитать степень 2х') as string)
   if (win || win == 0){
     win=win**2
-    alert('ответ '+win)
+    // @ts-ignore
+    span1?.innerText = 'ответ '+win
   }
   else
-  alert('ну ок')
+  // @ts-ignore
+  span1?.innerText = 'ну ок'
 }
 // n1()
 
@@ -112,6 +115,7 @@ function call(){
   }
   console.log(sum)
 }
+// @ts-ignore
 call(3,7,14,`err`,5)
 }
 // n8()
@@ -147,8 +151,11 @@ function numbers(){
   }
   return numbers
 }
+// @ts-ignore
 console.log('numbers(5,5,5,3)',numbers(5,5,5,3))
+// @ts-ignore
 console.log('numbers(5,a,5,d)',numbers(5,'a',5,'d'))
+// @ts-ignore
 console.log('numbers(q,w,0,true)',numbers('q','w',0,true))
 }
 // n10()
@@ -166,6 +173,7 @@ function mean (){
   return num/=i
 }
 
+// @ts-ignore
 console.log(mean(6,6,6,5));
 }
 // n11()
@@ -199,11 +207,12 @@ function n13 (){
 function doubleArray (){
   const str=[]
   for (let i=0; i!= arguments.length;i++){
-
+    // @ts-ignore
     str.unshift(` ${arguments[i]}`)
   }
   return str
 }
+// @ts-ignore
 console.log(doubleArray ('eegg',100,'upu',477,777));
 }
 // n13()
