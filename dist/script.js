@@ -183,3 +183,17 @@ function n13() {
     console.log(doubleArray('eegg', 100, 'upu', 477, 777));
 }
 // n13()
+// pz 5
+// 4
+function n14() {
+    function mig(caterpillar) {
+        var castration = 100;
+        var castration2 = 10;
+        var buffer = 0;
+        var sum;
+        sum = ((caterpillar % castration - buffer) / castration2) % 1;
+        return sum;
+    }
+    console.log(mig(prompt()));
+}
+n14();

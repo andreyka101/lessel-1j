@@ -216,3 +216,19 @@ function doubleArray (){
 console.log(doubleArray ('eegg',100,'upu',477,777));
 }
 // n13()
+
+// pz 5
+
+// 4
+function n14 (){
+  function mig (caterpillar){
+  let castration = 100
+  let castration2 = 10
+  let buffer = 0
+  let sum
+    sum = ((caterpillar % castration - buffer) / castration2) % 1
+    return sum
+  }
+  console.log(mig (prompt()))
+}
+n14()
