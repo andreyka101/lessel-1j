@@ -187,13 +187,34 @@ function n13() {
 // 4
 function n14() {
     function mig(caterpillar) {
-        var castration = 100;
-        var castration2 = 10;
-        var buffer = 0;
-        var sum;
-        sum = ((caterpillar % castration - buffer) / castration2) % 1;
-        return sum;
+        var castration = 10;
+        var castration2 = 1;
+        var sum = 0;
+        var stop = 1;
+        while (stop != 0) {
+            sum += stop;
+            stop = parseFloat(((caterpillar % castration) / castration2).toFixed(0));
+            console.log(stop);
+            castration *= 10;
+            castration2 *= 10;
+        }
+        return sum - 1;
     }
-    console.log(mig(prompt()));
+    //@ts-ignore
+    console.log(mig(prompt("введите до 4 чисел")));
 }
-n14();
+// n14()
+///////////////////////////////////////////////////////////////////////
+// 5
+function n15() {
+    var q = prompt();
+    var str = "";
+    for (var i = 0; i != q; i++) {
+        str += "(";
+    }
+    for (var i = 0; i != q; i++) {
+        str += ")";
+    }
+    alert(str);
+}
+// n15()

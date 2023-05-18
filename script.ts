@@ -221,14 +221,39 @@ console.log(doubleArray ('eegg',100,'upu',477,777));
 
 // 4
 function n14 (){
-  function mig (caterpillar){
-  let castration = 100
-  let castration2 = 10
-  let buffer = 0
-  let sum
-    sum = ((caterpillar % castration - buffer) / castration2) % 1
-    return sum
+  function mig (caterpillar:number){
+  let castration = 10
+  let castration2 = 1
+  let sum = 0
+  let stop = 1
+  while(stop!=0){
+    sum += stop
+    stop = parseFloat( ((caterpillar % castration) / castration2).toFixed(0));
+    console.log(stop)
+    castration *= 10
+    castration2 *= 10
   }
-  console.log(mig (prompt()))
+    return sum-1
+  }
+  
+  //@ts-ignore
+  console.log(mig (prompt("введите до 4 чисел"))) 
 }
-n14()
+// n14()
+///////////////////////////////////////////////////////////////////////
+
+// 5
+
+function n15 (){
+let q = prompt()
+let str = ""
+
+  for(let i=0 ;i != q ; i++){
+    str +="("
+  }
+  for(let i=0 ;i != q ; i++){
+    str +=")"
+  }
+  alert(str)
+}
+// n15()
