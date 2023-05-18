@@ -245,12 +245,14 @@ function n14 (){
 // 5
 
 function n15 (){
-let q = prompt()
-let str = ""
-
+  let q = prompt()
+  let str = ""
+  
+  //@ts-ignore
   for(let i=0 ;i != q ; i++){
     str +="("
   }
+  //@ts-ignore
   for(let i=0 ;i != q ; i++){
     str +=")"
   }

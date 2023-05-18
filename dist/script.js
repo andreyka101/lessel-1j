@@ -209,9 +209,11 @@ function n14() {
 function n15() {
     var q = prompt();
     var str = "";
+    //@ts-ignore
     for (var i = 0; i != q; i++) {
         str += "(";
     }
+    //@ts-ignore
     for (var i = 0; i != q; i++) {
         str += ")";
     }
