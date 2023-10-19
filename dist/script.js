@@ -5,12 +5,10 @@ function n1() {
     var win = parseInt(prompt('я могу посчитать степень 2х'));
     if (win || win == 0) {
         win = Math.pow(win, 2);
-        // @ts-ignore
-        span1 === null || span1 === void 0 ? void 0 : span1.innerText = 'ответ ' + win;
+        alert('ответ ' + win);
     }
     else
-        // @ts-ignore
-        span1 === null || span1 === void 0 ? void 0 : span1.innerText = 'ну ок';
+        alert('ну ок');
 }
 // n1()
 //  2

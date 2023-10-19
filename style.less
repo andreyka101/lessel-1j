@@ -3,19 +3,17 @@ body{
   padding: 15px;
 }
 .body{
-display: flex;
+  display: flex;
 }
 a{
-padding: 5px;
+  padding: 5px;
   background-color: rgb(255, 228, 228);
   border: solid 3px black;
   border-radius: 5px;
   color: black;
   margin: 15px;
-}
-a:hover{
-  color: rgb(11, 8, 199);
-  border: solid 3px rgb(11, 8, 199);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
 }
 .cards{
   background-color: rgb(255, 228, 228);
@@ -38,10 +36,6 @@ a:hover{
     border: solid 0px;
     border-radius: 4px;
   }
-  button:hover{
-    background-color: rgb(7, 5, 112);
-
-  }
 }
 .cards:nth-child(1){
   left:3%
@@ -59,7 +53,36 @@ a:hover{
   left:78%
 }
 
-.cards:hover{
-  margin-top: 29px;
-  box-shadow: 0px 3px 7px 1px rgb(85, 85, 85);
+@media screen and (min-width:850px){
+  .cards:hover{
+    margin-top: 29px;
+    box-shadow: 0px 3px 7px 1px rgb(85, 85, 85);
+  }
+    a:hover{
+      color: rgb(11, 8, 199);
+      border: solid 3px rgb(11, 8, 199);
+    }
+  button:hover{
+    background-color: rgb(7, 5, 112);
+  
+  }
 }
+@media screen and (max-width:850px){
+.cards{
+  position: static;
+}
+.body{
+  flex-direction: column;
+}
+}
+@media screen and (max-width:850px){
+  .cards{
+    margin: 10px;
+  }
+  .body{
+    padding: 5px;
+  }
+}
+
+
+

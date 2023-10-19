@@ -7,12 +7,9 @@ function n1 (){
   let win=parseInt(prompt('я могу посчитать степень 2х') as string)
   if (win || win == 0){
     win=win**2
-    // @ts-ignore
-    span1?.innerText = 'ответ '+win
+    alert('ответ '+win)
   }
-  else
-  // @ts-ignore
-  span1?.innerText = 'ну ок'
+  else alert('ну ок')
 }
 // n1()
 
