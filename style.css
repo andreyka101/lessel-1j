@@ -2,6 +2,9 @@ body {
   background-color: antiquewhite;
   padding: 15px;
 }
+.body {
+  display: flex;
+}
 a {
   padding: 5px;
   background-color: #ffe4e4;

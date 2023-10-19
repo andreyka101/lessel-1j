@@ -32,11 +32,13 @@ function n3() {
 // urok основы str139
 //  1
 function n4() {
+    var a = 0;
     var n = +prompt('число');
     if (n % 2 != 0)
         n--;
     for (var cycle = 0, num = 2; cycle != n / 2; cycle++, num += 2)
-        console.log(num);
+        a += num;
+    alert(a);
 }
 // n4()
 //  3
@@ -44,7 +46,7 @@ function n5() {
     var n = +prompt('число');
     for (var num = 1; num != 10; num++) {
         if (n % num == 0)
-            console.log(num);
+            alert(num);
     }
 }
 // n5()
@@ -89,7 +91,7 @@ function n8() {
             sum += " ";
             num++;
         }
-        console.log(sum);
+        alert(sum);
     }
     // @ts-ignore
     call(3, 7, 14, "err", 5);
@@ -113,7 +115,7 @@ function n9() {
 // n9()
 // 3
 function n10() {
-    function numbers() {
+    function numbers(a, b, s, d) {
         var numbers = 0;
         for (var _i = 0, arguments_2 = arguments; _i < arguments_2.length; _i++) {
             var el = arguments_2[_i];
@@ -123,12 +125,7 @@ function n10() {
         }
         return numbers;
     }
-    // @ts-ignore
-    console.log('numbers(5,5,5,3)', numbers(5, 5, 5, 3));
-    // @ts-ignore
-    console.log('numbers(5,a,5,d)', numbers(5, 'a', 5, 'd'));
-    // @ts-ignore
-    console.log('numbers(q,w,0,true)', numbers('q', 'w', 0, true));
+    alert("numbers(5,5,5,3)" + numbers(5, 5, 5, 3) + "\nnumbers(5,a,5,d)" + numbers(5, 'a', 5, 'd') + "\nnumbers(q,w,0,true)" + numbers('q', 'w', 0, true));
 }
 // n10()
 // 4
@@ -144,7 +141,7 @@ function n11() {
         return num /= i;
     }
     // @ts-ignore
-    console.log(mean(6, 6, 6, 5));
+    alert(mean(6, 6, 6, 5));
 }
 // n11()
 // 5
@@ -166,7 +163,7 @@ function n12() {
             return 'ошобка';
         }
     }
-    console.log(doubling(prompt("2^x")));
+    alert(doubling(prompt("2^x")));
 }
 // n12()
 // 6
@@ -180,7 +177,7 @@ function n13() {
         return str;
     }
     // @ts-ignore
-    console.log(doubleArray('eegg', 100, 'upu', 477, 777));
+    alert(doubleArray('eegg', 100, 'upu', 477, 777));
 }
 // n13()
 // pz 5
@@ -194,7 +191,7 @@ function n14() {
         while (stop != 0) {
             sum += stop;
             stop = parseFloat(((caterpillar % castration) / castration2).toFixed(0));
-            console.log(stop);
+            alert(stop);
             castration *= 10;
             castration2 *= 10;
         }

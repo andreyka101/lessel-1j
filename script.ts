@@ -43,10 +43,11 @@ function n3 (){
 //  1
 
 function n4 (){
+  let a=0
   let n= +(prompt('число') as string)
   if (n%2!=0) n--
-  for (let cycle=0 , num=2;cycle!=n/2;cycle++ , num+=2)
-  console.log(num)
+  for (let cycle=0 , num=2;cycle!=n/2;cycle++ , num+=2) a+=num
+alert(a)
 }
 // n4()
 
@@ -55,7 +56,7 @@ function n4 (){
 function n5 (){
 let n= +(prompt('число') as string)
 for (let num=1;num!=10;num++){
-  if (n%num==0) console.log(num)
+  if (n%num==0) alert(num)
 }
 }
 // n5()
@@ -113,7 +114,7 @@ function call(){
     sum += " "
     num++
   }
-  console.log(sum)
+  alert(sum)
 }
 // @ts-ignore
 call(3,7,14,`err`,5)
@@ -142,7 +143,7 @@ call()
 // 3
 
 function n10(){
-function numbers(){
+function numbers(a,b,s,d){
   let numbers = 0
   for (let el of arguments) {
     if (typeof(el)=='number') {
@@ -151,12 +152,9 @@ function numbers(){
   }
   return numbers
 }
-// @ts-ignore
-console.log('numbers(5,5,5,3)',numbers(5,5,5,3))
-// @ts-ignore
-console.log('numbers(5,a,5,d)',numbers(5,'a',5,'d'))
-// @ts-ignore
-console.log('numbers(q,w,0,true)',numbers('q','w',0,true))
+alert(`numbers(5,5,5,3)${numbers(5,5,5,3)}
+numbers(5,a,5,d)${numbers(5,'a',5,'d')}
+numbers(q,w,0,true)${numbers('q','w',0,true)}`)
 }
 // n10()
 
@@ -174,7 +172,7 @@ function mean (){
 }
 
 // @ts-ignore
-console.log(mean(6,6,6,5));
+alert(mean(6,6,6,5));
 }
 // n11()
 
@@ -197,7 +195,7 @@ function n12 (){
               return 'ошобка'
             }
           }
-          console.log (doubling(prompt(`2^x`)))
+          alert (doubling(prompt(`2^x`)))
 }
 // n12()
           
@@ -213,7 +211,7 @@ function doubleArray (){
   return str
 }
 // @ts-ignore
-console.log(doubleArray ('eegg',100,'upu',477,777));
+alert(doubleArray ('eegg',100,'upu',477,777));
 }
 // n13()
 
@@ -229,7 +227,7 @@ function n14 (){
   while(stop!=0){
     sum += stop
     stop = parseFloat( ((caterpillar % castration) / castration2).toFixed(0));
-    console.log(stop)
+    alert(stop)
     castration *= 10
     castration2 *= 10
   }
